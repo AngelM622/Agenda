@@ -1,0 +1,57 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: black;
+    font-size: 2.6rem;
+}
+
+.formulario{
+    max-width: 120rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 5rem 5rem;
+    background-color: white;
+    border-radius: 2rem;
+    width: 35%;
+}
+
+.agenda{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.agenda input{
+    padding-left: 2rem;
+}
+
+.agenda:last-of-type{
+    margin-bottom: 0;
+}
+
+.botones{
+    text-align: center;
+}
+
+.lista{
+    max-width: 120rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 5rem 5rem;
+    background-color: white;
+    border-radius: 2rem;
+    width: 35%;
+}
+
+span{
+    font-weight: bold;
+}
